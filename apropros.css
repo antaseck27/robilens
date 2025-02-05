@@ -108,11 +108,11 @@ button:hover{
         color: white;
     }
     .img{
-        margin-top: 50px;
+        margin-top: 10px;
         gap: 50px;
         display: flex;
         justify-content:right;
-        margin-right: 50px; 
+        margin-right: 0px; 
          
     }
     .logo1{
@@ -121,17 +121,11 @@ button:hover{
         justify-content: space-around;
         align-items: end;
     }
-    .img{
-        margin-top: 50px;
-        gap: 50px;
-        display: flex;
-        justify-content:right;
-        margin-right: 50px; 
-         
-    }
+   
     .robi2{
         display: flex;
         justify-content: space-between;
+        padding: 20px 50px;
       }
       .but{
         text-align: center;
