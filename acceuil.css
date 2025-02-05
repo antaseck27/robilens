@@ -1,0 +1,234 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    font-size: 50px;
+    color: #acaeed
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+
+}
+.navbar ul li{
+     padding: 0px;
+     margin: 0px 20px;
+     list-style: none;
+     color: #000;
+}
+button{
+    background-color: #a5b4fc;
+    width: 300px;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: center;
+
+}
+.buton1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #a5b4fc;
+    width: 300px;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 20px;
+
+}
+button:hover
+{
+    background: linear-gradient(#8e86b5, #acaeed);
+}
+input,textarea{
+    width: 75%;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px; 
+}
+.sec{
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 0px;
+    
+    display: flex;
+    align-items:end;
+    justify-content: center;
+    background-color: rgb(21, 21, 56);
+    
+    color: #FFFFFF;
+    padding: 100px;
+}
+em{
+    color: #a5b4fc;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding:  80px;
+
+    
+}
+.robi1{
+   
+}
+.sec1{
+    width: 50%;
+    margin-left: 60px;
+}
+.image{
+    width: 50%;
+    margin-left: 140px;
+}
+form{
+    display: inline;
+    margin: auto;
+    width: 600px;
+    box-sizing: border-box;
+}
+.form-flex-colum{
+    display: flex;
+    flex-direction: row;
+    gap: 15px
+}
+.form-colum{
+    display: flex;
+    flex-direction: column;
+    display: 15px;
+}
+
+.form-colum input{
+    padding: 10px;
+    width: 400px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.form-colum1{
+    display: flex;
+    flex-direction: column;
+    display: 15px;
+    width: 130%;
+}
+.form-colum1 textarea{
+   /* width: 120%; */
+   height: 150px;
+   border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+}
+ .element{
+    display: grid;
+    grid-template-columns: 340px 340px 350px;
+    grid-auto-rows: 330px  ;  
+    grid-gap: 0px; 
+    justify-content: center;
+} 
+/* .element{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:100PX 100PX ;
+    grid-auto-rows: 380px;
+    grid-gap: 0px;
+    width: 85%;
+    margin: auto;
+    justify-content: center;
+    padding-bottom: 50px;
+} */
+.robi2{
+    display: flex;
+    justify-content: space-between;
+  }
+  .img{
+    gap: 40px;
+    display: flex;
+    justify-content:right;    
+    height: 30px; 
+    
+} 
+  .logo1{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.robi1{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.element2{
+    background-color: rgb(21, 21, 56);
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+  
+.img1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url("element-1.png");
+    background-size: cover;
+}
+.img2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url("element-2.png");
+    background-size: cover;
+}
+.img3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-image: url("element-3.png");
+    background-size: cover;
+}
+.img4{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-image: url("element-4.png");
+    background-size: cover;
+}
+.img5{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url("element-5.png");
+    background-size: cover;
+}
+.img6{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-image: url("element-6.png");
+    background-size: cover;
+}
+.element2{
+    background-color: rgb(21, 21, 56);
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+
+    width: 100px;
+}  
+.ul{
+    
+    width: 300px;
+}          

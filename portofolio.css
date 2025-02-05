@@ -1,0 +1,192 @@
+
+body{
+    font-family: "Manrope", sans-serif;
+    padding: 0px;
+    margin: 0px;
+} 
+h1{
+    font-family: "Montserrat", sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0px  50px;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+
+}
+.navbar ul li{
+     padding: 0px;
+     margin: 0px 20px;
+     list-style: none;
+     color: #000;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+h1{
+    background-color: rgb(21, 21, 56);
+    color: white;
+    padding: 100px;
+    text-align: left;
+}
+h3{
+    text-align: center;
+    color: #000000;
+    padding: 0px;
+}
+/* .table{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 40px;
+    box-sizing: border-box;
+}  */
+
+.logo1{
+     display: flex;
+    justify-content: space-around;
+    align-items: end;
+} 
+
+.robi1{
+    display: flex;
+    align-items: center; 
+    justify-content: right;
+
+}
+.paysage1{
+    width: 100%;
+}
+.paysage{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 380px;
+    grid-gap: 5px;
+    width: 85%;
+    margin: auto;
+}  
+
+.photo{
+    background-color: blue;
+}
+.photo1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url("paysage1.jpg");
+    background-size: cover;
+}
+.photo2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url("paysage2.jpg");
+    background-size: cover;
+}
+.photo3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-image: url("paysage3.jpg");
+    background-size: cover;
+}
+.photo4{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-image: url("paysage4\ \(1\).jpg");
+    background-size: cover;
+}
+.photo5{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url("paysage5.jpg");
+    background-size: cover;
+}
+.photo6{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-image: url("paysage6.jpg");
+    background-size: cover;
+}
+.photo7{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-image: url("paysage7.jpg");
+    background-size: cover;
+}
+.photo8{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-image: url("paysage8.jpg");
+    background-size: cover;
+}
+.photo9{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-image: url("paysage9.jpg");
+    background-size: cover;
+}
+.tof{
+    background-color: blue;
+
+}
+.image1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url("portrait1.jpg");
+    background-size: cover;
+}
+.image2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url("portrait2.jpg");
+    background-size: cover;
+}
+.image3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-image: url("portrait3.jpg");
+    background-size: cover;
+}
+.image4{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-image: url("portrait4.jpg");
+    background-size: cover;
+}
+.image5{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url("portrait5.jpg");
+    background-size: cover;
+}
+.image6{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-image: url("portrait6.jpg");
+    background-size: cover;
+}
+#paysage{
+    width: 400px; 
+    height: 300px;
+    background-image: url("paysage9.jpg");
+    background-size: cover;
+} 
+ .robi2{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .img{
+    gap: 40px;
+    display: flex;
+    justify-content:right;    
+    height: 30px; 
+    padding: 0px;
+}

@@ -1,0 +1,302 @@
+body{
+    font-family: "Manrope", sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    color: #fff;
+}
+h1{
+    font-family: "Montserrat", sans-serif;
+}
+/*  Navbar debut */
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0px  50px;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+    
+
+}
+.navbar ul li{
+     padding: 0px;
+     margin: 0px 20px;
+     list-style: none;
+     color: #000;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #000;
+}
+/* Navbar fin */
+.section{
+    background-color: #1a1b38;
+}
+.container{
+   width: 100%;
+   padding: 50px;
+}
+.item{
+    width: 700px;
+    border-right: 1px solid #acaeed;
+    border-bottom: 1px solid #acaeed;
+    padding: 20px;
+    margin: auto;
+}
+.section-title{
+    text-align: center;
+}
+.section-text{
+    text-align: center;
+}
+.section-text p{
+    text-align: start;
+    padding: 22px;
+}
+.section-title2{
+    text-align: center;
+}
+.center{
+    margin: auto;
+    justify-content: center;
+}
+.service-item  ul{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+
+}
+.service-item li{
+    text-align: start;
+}
+button{
+     background-color: rgb(143, 85, 197);
+    border-radius: 50px;
+    width: 300px;
+    height: 50px; 
+    background-color: #a5b4fc;
+    width: 300px;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: center;
+    }
+
+button:hover{
+    background: linear-gradient(#8e86b5, #acaeed);
+}
+    table{
+        width: 100%;
+        border-collapse: collapse;
+        height: 400px;
+     }
+     .tableau{
+        background-color: #1a1b38;
+        padding: 100px;
+     }
+    th, td{
+        border: 1px solid #acaeed;
+        padding: 20px;
+        text-align: center;
+        color: white;
+    }
+    .img{
+        margin-top: 50px;
+        gap: 50px;
+        display: flex;
+        justify-content:right;
+        margin-right: 50px; 
+         
+    }
+    .logo1{
+
+        display: flex;
+        justify-content: space-around;
+        align-items: end;
+    }
+    .img{
+        margin-top: 50px;
+        gap: 50px;
+        display: flex;
+        justify-content:right;
+        margin-right: 50px; 
+         
+    }
+    .robi2{
+        display: flex;
+        justify-content: space-between;
+      }
+      .but{
+        text-align: center;
+        margin-bottom: 100px;
+    }
+    h4{
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        
+    }
+/* .robi1{
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    gap: 10px;
+}
+.robi1 a{
+    text-decoration: none;
+    color: black;
+
+}
+.container{
+    height: 400px;
+    width: 100%;
+    background-color: #1a1b38; 
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:center; 
+}
+.con1{
+    /* border: 1px solid #a5b4fc; *
+    width: 50%;
+    height: auto;
+    /* z-index: 1; *//*
+    border-bottom: 1px solid #a5b4fc;
+    border-right: 1PX solid #a5b4fc;
+    
+}
+.ul1{
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px; 
+
+
+}
+h1{
+    color: #16c9c9;
+    text-align: center;
+    font-size: 180%;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+
+}
+p{
+    color: white;
+    font: 17px;
+    text-align: center;
+}
+h2,h3{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    
+}
+button{
+    /* background-color: rgb(143, 85, 197);
+    border-radius: 50px;
+    width: 300px;
+    height: 50px; *//*
+    background-color: #a5b4fc;
+    width: 300px;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 20px;
+    text-align: center;
+    }
+    .but{
+        text-align: center;
+    }
+    .li{
+
+    }
+    
+    ul{
+       color: white ;
+       margin-left: 400px;
+       padding: 20px;
+        
+    }
+ table{
+    width: 100%;
+    border-collapse: collapse;
+    height: 400px;
+ }
+ .tableau{
+    background-color: #1a1b38;
+    padding: 30px;
+ }
+th, td{
+    border: 1px solid rgb(85, 171, 184);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.logo1{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.img{
+    margin-top: 50px;
+    gap: 50px;
+    display: flex;
+    justify-content:right;
+    margin-right: 50px; 
+     
+}
+.robi2{
+    display: flex;
+    justify-content: space-between;
+  }
+  #image{
+    width: 80px;
+    height: 50px;
+} */
+ /* .ordone{
+   display: inline-block;
+}   */
+.ordone1{
+    text-align: center;
+}     
+
+/* p{
+  color: whi8e;  
+}
+
+
+ */
+/*  */
+
+   
+   /* 
+   } */
+   /* table{
+    border-collapse: collapse;
+    width: 100%;
+   } */
+   td, th{
+
+   }
+   /* h1{
+    
+    text-align: center;
+    color: #A5B4FC;
+    margin: 0px 0px 15px;
+} */
+/* 
+    
+  } */
+
+    
